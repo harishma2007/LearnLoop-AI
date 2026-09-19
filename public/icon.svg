@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="learnloop-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#learnloop-grad)" />
+  <g filter="url(#shadow)">
+    <!-- Infinity / Loop Curve representing Learn. Practise. Improve. Repeat. -->
+    <path
+      d="M176 192 C128 192, 96 224, 96 256 C96 288, 128 320, 176 320 C232 320, 280 192, 336 192 C384 192, 416 224, 416 256 C416 288, 384 320, 336 320 C280 320, 232 192, 176 192 Z"
+      stroke="#ffffff"
+      stroke-width="36"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+    <!-- Sparkle / Star Node representing AI Mastery -->
+    <path
+      d="M336 228 L342 248 L362 254 L342 260 L336 280 L330 260 L310 254 L330 248 Z"
+      fill="#fde047"
+    />
+    <circle cx="176" cy="256" r="14" fill="#67e8f9" />
+  </g>
+</svg>

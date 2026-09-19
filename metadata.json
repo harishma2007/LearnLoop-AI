@@ -1,0 +1,10 @@
+{
+  "name": "LearnLoop AI",
+  "description": "Personalized AI learning companion for all subjects: Mathematics, Physics, Chemistry, Biology, Computer Science, AI, History, English, Economics, DBMS, and custom subjects. Features Teach-Back mode, dynamic tutoring, adaptive quizzes, question bank, and mastery maps.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
